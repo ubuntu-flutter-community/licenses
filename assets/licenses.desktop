@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Licenses
+Comment=YaruMasterDetailPage example
+Keywords=flutter;yaru;example;
+Exec=licenses
+Icon=licenses
+Terminal=false
+Categories=Example;
