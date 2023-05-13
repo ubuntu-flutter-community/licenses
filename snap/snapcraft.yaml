@@ -1,0 +1,24 @@
+name: licenses
+version: git
+summary: Licenses
+description: YaruMasterDetailPage example
+confinement: strict
+base: core22
+grade: stable
+license: GPL-3.0+
+architectures:
+  - build-on: amd64
+    build-for: amd64
+  - build-on: arm64
+    build-for: arm64
+
+parts:
+  numbers:
+    plugin: flutter
+    source: .
+
+apps:
+  numbers:
+    command: licenses
+    desktop: data/flutter_assets/assets/licenses.desktop
+    extensions: [gnome]
