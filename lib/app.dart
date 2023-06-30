@@ -65,7 +65,7 @@ class LicensePage extends StatelessWidget {
         ),
       ),
       length: model.packages.length,
-      tileBuilder: (context, index, selected) => YaruMasterTile(
+      tileBuilder: (context, index, selected, availableWidth) => YaruMasterTile(
         selected: selected,
         title: Text(model.packages[index]),
       ),
