@@ -13,12 +13,12 @@ architectures:
     build-for: arm64
 
 parts:
-  numbers:
+  licenses:
     plugin: flutter
     source: .
 
 apps:
-  numbers:
+  licenses:
     command: licenses
     desktop: data/flutter_assets/assets/licenses.desktop
     extensions: [gnome]
